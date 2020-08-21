@@ -1,7 +1,7 @@
 <?php
 
 use FedaPay;
-
+include ('config.php');
 require_once('vendor/autoload.php');
 
 if (isset($_POST['submit'])) {
@@ -54,8 +54,8 @@ if (isset($_POST['submit'])) {
     /**
      * Set Apikey and environment to connect to FedaPay
      */
-    FedaPay\FedaPay::setEnvironment('sandbox');
-    FedaPay\FedaPay::setApiKey("sk_sandbox_y4pIwtdYPSIR9c_Ar1K1NQBW");
+    FedaPay\FedaPay::setEnvironment($credentials["environment"]);
+    FedaPay\FedaPay::setApiKey($credentials["apikey"]);
 
     try {
         /**

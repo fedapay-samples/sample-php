@@ -47,7 +47,7 @@
             </div>
         </nav>
         <div class="div">
-            <h1 class="h1" style="text-align:center; margin-top:25px; margin-bottom:25px">Hoodie Store</h1>
+            <h1 class="h1 mt-5 mb-3" style="text-align:center; margin-top:25px; margin-bottom:25px">Hoodie Store</h1>
         </div>
         <div class="container">
             <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
@@ -129,12 +129,12 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="firstname">Prénom</label>
+                                                        <label for="firstname">Prénoms</label>
                                                         <input type="text" class="form-control" name="firstname" id="firstname" placeholder="John">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row">
+                                            <div class="form-row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="exampleInputEmail1">Email</label>
@@ -144,7 +144,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="number">Téléphone (optionnel)</label>
+                                                        <label for="number">Téléphone </label>
                                                         <input type="tel" class="form-control" name="number" id="number" placeholder="66000001"">
                                             </div>
     
@@ -169,6 +169,10 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--Description Modal-->
+
+
 
                 <?php
                 }
@@ -202,16 +206,16 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 text-white font-weight-bold">Products</h6>
                     <p>
-                        <a href="#!">Jeans</a>
+                        <a class="text-white" href="#!">Jeans</a>
                     </p>
                     <p>
-                        <a href="#!">Hoodies</a>
+                        <a class="text-white" href="#!">Hoodies</a>
                     </p>
                     <p>
-                        <a href="#!">Shirts</a>
+                        <a class="text-white" href="#!">Shirts</a>
                     </p>
                     <p>
-                        <a href="#!">3D Printing</a>
+                        <a class="text-white" href="#!">3D Printing</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -243,12 +247,12 @@
                     <h6 class="text-uppercase text-white mb-4 font-weight-bold">Contact</h6>
                     <p class="text-white">
                         <i class="fas fa-home  mr-3 text-white"></i> New York, NY 10012, US</p>
-                    <p class="text-white">
-                        <i class="fas  fa-envelope mr-3"></i> info@gmail.com</p>
-                    <p class="text-white">
-                        <i class="fas text-white fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p class="text-white">
-                        <i class="fas text-white fa-print mr-3"></i> + 01 234 567 89</p>
+                        <p class="text-white">
+                            <i class="fas  fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p class="text-white">
+                            <i class="fas text-white fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p class="text-white">
+                            <i class="fas text-white fa-print mr-3"></i> + 01 234 567 89</p>
                 </div>
                 <!-- Grid column -->
 
@@ -261,7 +265,7 @@
             <div class="row d-flex align-items-center">
 
                 <!-- Grid column -->
-                <div class="col-md-7 col-lg-8">
+                <div class="col-12">
 
                     <!--Copyright-->
                     <p class="text-center text-md-center text-white">© 2020 Copyright:
@@ -274,35 +278,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-5 col-lg-4 ml-lg-0">
-
-                    <!-- Social buttons -->
-                    <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
+              
                 <!-- Grid column -->
 
             </div>
