@@ -1,8 +1,9 @@
-<?php 
-use FedaPay;
+<?php
 
-$credentials = [
-    "apikey"=>"",
-    "environment"=>"",
+/**
+ * COnfig array
+ */
+return [
+    "apikey" => "sk_sandbox_QOnQj0rYVtoDb-jOMVurIz60",
+    "environment" => "sandbox",
 ];
-?>

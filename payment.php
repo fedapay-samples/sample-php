@@ -1,9 +1,21 @@
 <?php
+// Include header
+include 'inc/header.php';
+?>
 
-use FedaPay;
-include ('config.php');
+<?php
+
 require_once('vendor/autoload.php');
 
+$config = require('config.php');
+
+/**
+ * Set Apikey and environment to connect to FedaPay
+ */
+FedaPay\FedaPay::setEnvironment($config["environment"]);
+FedaPay\FedaPay::setApiKey($config["apikey"]);
+
+// Process to payment
 if (isset($_POST['submit'])) {
     /**
      * get customer name from the form
@@ -44,18 +56,15 @@ if (isset($_POST['submit'])) {
      * @var Object
      * Transaction Data
      */
+    $callback_url ="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
     $data = [
         'description' => 'Achat de Hoodie',
         'amount' => (int) $amount,
         'currency' => ['iso' => 'XOF'],
-        'callback_url' => 'http://localhost/php/php_sample/index.php',
+        'callback_url' => $callback_url,
         'customer' => $customer
     ];
-    /**
-     * Set Apikey and environment to connect to FedaPay
-     */
-    FedaPay\FedaPay::setEnvironment($credentials["environment"]);
-    FedaPay\FedaPay::setApiKey($credentials["apikey"]);
 
     try {
         /**
@@ -73,9 +82,39 @@ if (isset($_POST['submit'])) {
          */
         return header('Location: ' . $token->url);
         exit;
-    } catch (\Exception $e) {
-        echo ($e);
+    } catch (\FedaPay\Error\ApiConnection $e) {
+        echo '<div class="alert alert-danger">';
+        echo $e->getErrorMessage();
+
+        if ($e->hasErrors()) {
+            $errors = $e->getErrors();
+
+            echo '<ul>';
+            foreach ($errors as $key => $errorMessages) {
+                foreach ($errorMessages as $message) {
+                    echo "<li><strong>$key:</strong> $message</li>";
+                }
+            }
+            echo '</ul>';
+        }
+
+        echo '</div>';
     }
-} else {
-    echo ('data not received');
 }
+
+// Payment callback
+if (isset($_GET['id'])) {
+    /**
+     * Create a Transaction object with the data
+     */
+    $transaction = FedaPay\Transaction::retrieve($_GET['id']);
+
+    if ($transaction->wasPaid()) {
+        echo '<div class="alert alert-success">Transaction approuvée.</div>';
+    } else {
+        echo '<div class="alert alert-danger">Transaction échouée.</div>';
+    }
+}
+?>
+
+<?php include 'inc/footer.php'; ?>
