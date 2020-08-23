@@ -25,7 +25,7 @@
         "modele": "Noir, Gold et Bleu",
         "color": "black",
         "tailles": "M , XL et XXL",
-        "subject": "5 Seconds Of Summer",
+        "subject": "5 SOS",
         "reference": "https://teehonesty.com/wp-content/uploads/2020/01/5SOS-5-Seconds-of-Summer-Logo-hoodie.jpg",
         "price": "15500"
     },
@@ -55,7 +55,7 @@
         "modele": "Orange",
         "color": "orange",
         "tailles": "S , XL et XXL",
-        "subject": "Chance The Rapper",
+        "subject": "Chance",
         "reference": "https://www.dhresource.com/0x0/f2/albu/g10/M00/F2/07/rBVaVl6i4uSAMtuZAACooOukF0k843.jpg",
         "price": "14500"
     },
@@ -77,26 +77,5 @@
         "subject": "Méliodas",
         "reference": "https://ae01.alicdn.com/kf/H9b3428720d2144c09e97374aff65e543H.jpg_q50.jpg",
         "price": "14500"
-    },
-    "supernatural": {
-        "src": "./pictures/supernatural.jpg",
-        "description": "Sweat à capuche unisexe portant la cover de la série télévisée",
-        "modele": "Rouge, Bleu, Noir",
-        "color": "blazing",
-        "tailles": "S , XL et XXL",
-        "subject": "Supernatural",
-        "reference": "https://www.channeleffect.com/ImageHosting/viewImage?CompanyId=25072&FilePath=Images/207120",
-        "price": "14500"
-    },
-    "juice-3": {
-        "src": "./pictures/juice_tn.jpg",
-        "description": "Sweat à capuche noir-blanc de l'artiste",
-        "modele": " Gold, Blanc, Noir et Bleu",
-        "tailles": "L , XL et XXL",
-        "color": "Black & White",
-        "subject": "Juice WRLD",
-        "reference": "https://ae01.alicdn.com/kf/Hdebaf9e858774d999b30b8bcc848aee5U/Stars-Juice-Wrld-Hoodies-Men-Women-Sweatshirts-Singer-Juice-Wrld-Hoodie-Mens-Hoody-Hooded-Boy-Girls.jpg",
-        "price": "12500"
     }
-
 }

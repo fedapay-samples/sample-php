@@ -1,5 +1,5 @@
 {
     "require": {
-        "fedapay/fedapay-php": "^0.3.0"
+        "fedapay/fedapay-php": "^0.3.1"
     }
 }

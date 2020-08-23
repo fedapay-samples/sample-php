@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55fd729c8090294dede279045ad2f347",
+    "content-hash": "d793ba928420cdf71341cff9886d11ac",
     "packages": [
         {
             "name": "fedapay/fedapay-php",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fedapay/fedapay-php.git",
-                "reference": "5e94efe0744c582af2ab5edb69d05fcf4d3d2cbb"
+                "reference": "0b47096860520544341210c07fc6a5254b1f2d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/5e94efe0744c582af2ab5edb69d05fcf4d3d2cbb",
-                "reference": "5e94efe0744c582af2ab5edb69d05fcf4d3d2cbb",
+                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/0b47096860520544341210c07fc6a5254b1f2d8c",
+                "reference": "0b47096860520544341210c07fc6a5254b1f2d8c",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "fedapay",
                 "payment processing"
             ],
-            "time": "2019-11-26T11:36:40+00:00"
+            "time": "2020-08-23T21:58:55+00:00"
         }
     ],
     "packages-dev": [],
