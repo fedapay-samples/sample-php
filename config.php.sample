@@ -1,9 +1,10 @@
 <?php
 
 /**
- * COnfig array
+ * Config array
  */
 return [
     "apikey" => "<%SECRET_KEY%>",
     "environment" => "<%ENVIRONMENT%>",
+    "project_name" =>"<%PROJECT_NAME%>"
 ];
