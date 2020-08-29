@@ -7,8 +7,6 @@ include 'inc/header.php';
 
 require_once('vendor/autoload.php');
 
-$config = require('config.php');
-
 /**
  * Set Apikey and environment to connect to FedaPay
  */
