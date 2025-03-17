@@ -1,24 +1,22 @@
-<?php
-$config = require('config.php');
-?>
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $config["project_name"] ?></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <title>Boutique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
+<body style="background-color: #eeeeee;">
+
+    <div class="container"> 
+        
         <div class="div">
-            <h1 class="h1 mt-5 mb-3" style="text-align:center; margin-top:25px; margin-bottom:25px"><?php echo $config["project_name"] ?></h1>
+            <h1 class="h1 mt-4 mb-3" style="text-align:center; margin-top:25px; margin-bottom:25px"><strong>Nos Produits</strong></h1>
         </div>
+
     </div>
     
-    <div class="container">
-    <!---- Page body starts here ---->
+    <div class="container mt-5">
