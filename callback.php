@@ -12,7 +12,7 @@ use FedaPay\FedaPay;
 
 // Configurer votre environnement Fedapay 
 
-FedaPay::setApiKey('sk_sandbox_2u0Z_52tfTEenBgbrMFvr9u6'); // Remplacez par votre clé API
+FedaPay::setApiKey('sk_sandbox_XXXXXXXXXXX'); // Remplacez par votre clé API
 
 FedaPay::setEnvironment('sandbox'); //Mettez votre environnement. Changez en 'live' pour production
 
