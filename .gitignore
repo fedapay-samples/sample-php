@@ -1,2 +1,3 @@
 vendor/
-config.php
+composer.json
+composer.lock.json
