@@ -14,7 +14,7 @@ use FedaPay\FedaPay;
 
 FedaPay::setApiKey('sk_sandbox_XXXXXXXXXXX'); // Remplacez par votre clé API
 
-FedaPay::setEnvironment('sandbox'); //Mettez votre environnement. Changez en 'live' pour production
+FedaPay::setEnvironment('environment'); //Mettez votre environnement. Changez en 'live' pour production
 
 try {
     // Récupération de l'ID de la transaction depuis l'URL
