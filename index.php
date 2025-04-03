@@ -31,9 +31,9 @@ use FedaPay\FedaPay;
 
 // Configurer votre environnement FedaPay
 
-FedaPay::setApiKey('sk_sandbox_XXXXXXXXXXX'); // Remplacez par votre clé secrète  API
+FedaPay::setApiKey('sk_sandbox_hxxvLhZblYzb3pBmwf838tte'); // Remplacez par votre clé secrète  API
 
-FedaPay::setEnvironment('environment'); // Mettez votre environnement. Changez en 'live' pour production
+FedaPay::setEnvironment('sandbox'); // Mettez votre environnement. Changez en 'live' pour production
 
  // Récupération des informations saisies par l'utilisateur après validation du formulaire de paiement
 
