@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d793ba928420cdf71341cff9886d11ac",
+    "content-hash": "14fd52901eb6b59cd156215a223697f0",
     "packages": [
         {
             "name": "fedapay/fedapay-php",
-            "version": "0.3.1",
+            "version": "0.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fedapay/fedapay-php.git",
-                "reference": "0b47096860520544341210c07fc6a5254b1f2d8c"
+                "reference": "0d9ff1c96a0f717460513f50e4ae7d9800221a92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/0b47096860520544341210c07fc6a5254b1f2d8c",
-                "reference": "0b47096860520544341210c07fc6a5254b1f2d8c",
+                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/0d9ff1c96a0f717460513f50e4ae7d9800221a92",
+                "reference": "0d9ff1c96a0f717460513f50e4ae7d9800221a92",
                 "shasum": ""
             },
             "require": {
@@ -27,9 +27,8 @@
                 "php": ">=5.5"
             },
             "require-dev": {
-                "fzaninotto/faker": "^1.7",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "phpunit/phpunit": "^4.0 || ^5.7 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -54,7 +53,11 @@
                 "fedapay",
                 "payment processing"
             ],
-            "time": "2020-08-23T21:58:55+00:00"
+            "support": {
+                "issues": "https://github.com/fedapay/fedapay-php/issues",
+                "source": "https://github.com/fedapay/fedapay-php/tree/0.4.5"
+            },
+            "time": "2025-01-28T19:40:47+00:00"
         }
     ],
     "packages-dev": [],
@@ -65,5 +68,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.6.0"
 }

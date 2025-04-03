@@ -1,5 +1,3 @@
-</div> <!--- End Page content--->
-
 <!-- Footer starts here -->
 <footer class="page-footer font-small mdb-color pt-4">
     <!-- Footer Links -->
@@ -11,7 +9,7 @@
             <div class="col-12">
 
                 <!--Copyright-->
-                <p class="text-center text-md-center">© 2020 Copyright:
+                <p class="text-center text-md-center">© 2025 Copyright:
                     <a href="https://www.fedapay.com/">
                         <strong> FedaPay</strong>
                     </a>
