@@ -4,17 +4,15 @@ session_start(); // Pour la gestion des cookies ou des sessions lors de l'execut
  
 require 'vendor/autoload.php';
 
+
+// Importer le fichier Config qui gère  votre environnement Fedapay 
+
+include ('config.php');
+
 // Faire appel au SDK de  Fedapay
 
 use FedaPay\Transaction;
 
-use FedaPay\FedaPay;
-
-// Configurer votre environnement Fedapay 
-
-FedaPay::setApiKey('sk_sandbox_XXXXXXXXXXXXXXXXXX'); // Remplacez par votre clé API
-
-FedaPay::setEnvironment('environment'); //Mettez votre environnement. Changez en 'live' pour production
 
 try {
     // Récupération de l'ID de la transaction depuis l'URL
@@ -39,6 +37,6 @@ try {
 }
 
 // Rediriger vers index.php avec un message flash
-header("Location: index.php");
+header("Location: ./");
 exit();
 ?>

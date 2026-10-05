@@ -1,0 +1,7 @@
+<?php 
+use FedaPay\FedaPay;
+
+FedaPay::setApiKey('sk_sandbox_XXXXXXXXXXXXXXXXXXXXXXX'); // Remplacez par votre clé API
+
+FedaPay::setEnvironment('env'); // Mettez votre environnement. 'Sandbox' pour le developement  Changez en 'live' pour production
+?>
