@@ -1,5 +1,6 @@
 {
     "require": {
+        "php": "^8.3.36",
         "fedapay/fedapay-php": "^0.4.5"
     }
 }
