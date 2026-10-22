@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14fd52901eb6b59cd156215a223697f0",
+    "content-hash": "a0463707720da69890a0d1677ac51e78",
     "packages": [
         {
             "name": "fedapay/fedapay-php",
-            "version": "0.4.5",
+            "version": "0.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fedapay/fedapay-php.git",
-                "reference": "0d9ff1c96a0f717460513f50e4ae7d9800221a92"
+                "reference": "c96ba2d5dce0eb00336092dfcf54499f7e4dd4bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/0d9ff1c96a0f717460513f50e4ae7d9800221a92",
-                "reference": "0d9ff1c96a0f717460513f50e4ae7d9800221a92",
+                "url": "https://api.github.com/repos/fedapay/fedapay-php/zipball/c96ba2d5dce0eb00336092dfcf54499f7e4dd4bc",
+                "reference": "c96ba2d5dce0eb00336092dfcf54499f7e4dd4bc",
                 "shasum": ""
             },
             "require": {
@@ -55,18 +55,20 @@
             ],
             "support": {
                 "issues": "https://github.com/fedapay/fedapay-php/issues",
-                "source": "https://github.com/fedapay/fedapay-php/tree/0.4.5"
+                "source": "https://github.com/fedapay/fedapay-php/tree/0.4.9"
             },
-            "time": "2025-01-28T19:40:47+00:00"
+            "time": "2026-10-05T14:30:22+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {
+        "php": "^8.3.36"
+    },
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
